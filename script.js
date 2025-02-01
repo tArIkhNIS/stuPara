@@ -33,7 +33,7 @@ async function fetchAnswerFromAPI(question) {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer sk-vy4dBIkoV-iEVaE2MDrmIU-I2_npvVCSXxkxFMbhZCT3BlbkFJ-EQbz2U5MFPI4HHBS9qosfI4Ky2j-vIF8_pskryicA`,
+        Authorization: `Bearer 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`,
       },
       body: JSON.stringify({
         model: "gpt-4o-mini",
